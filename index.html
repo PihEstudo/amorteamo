@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Um presente digital romantico feito com HTML, CSS e JavaScript."
+    />
+    <title>Presente de Programador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app" aria-live="polite">
+      <div class="particles" id="particles" aria-hidden="true"></div>
+      <div class="aurora" aria-hidden="true"></div>
+
+      <section class="hero screen active" id="hero">
+        <p class="eyebrow">Dia dos Namorados Mateus.exe</p>
+        <h1>N&atilde;o comprei flores.</h1>
+        <p class="subtitle">Mas fiz uma nascer na tela s&oacute; para voc&ecirc;.</p>
+        <button class="primary-button" id="openGift" type="button">
+          Abrir presente <span aria-hidden="true">❤️</span>
+        </button>
+      </section>
+
+      <section class="gift screen" id="gift">
+        <article class="letter-card" id="letterCard">
+          <div class="card-glow" aria-hidden="true"></div>
+          <div class="card-header">
+            <span class="seal" aria-hidden="true">♥</span>
+            <span>commit rom&acirc;ntico</span>
+          </div>
+
+          <p class="typewriter" id="typedText"></p>
+
+          <div class="flower-stage" id="flowerStage" aria-hidden="true">
+            <div class="flower-glow"></div>
+            <div class="flower">
+              <div class="stem"></div>
+              <div class="leaf leaf-left"></div>
+              <div class="leaf leaf-right"></div>
+              <div class="petal petal-1"></div>
+              <div class="petal petal-2"></div>
+              <div class="petal petal-3"></div>
+              <div class="petal petal-4"></div>
+              <div class="petal petal-5"></div>
+              <div class="petal petal-6"></div>
+              <div class="flower-center"></div>
+            </div>
+          </div>
+
+          <div class="final-message" id="finalMessage">
+            <h2>Feliz Dia dos Namorados ❤️</h2>
+            <p>Presente feito com 0 reais e muito amor.</p>
+            <button class="secondary-button" id="seeSurprise" type="button">
+              Ver surpresa
+            </button>
+          </div>
+        </article>
+      </section>
+
+      <section class="surprise screen" id="surprise">
+        <article class="surprise-card">
+          <p class="eyebrow">pipeline do cora&ccedil;&atilde;o</p>
+          <h2>Tempo juntos: carregando amor...</h2>
+          <div class="fake-counter">
+            <span id="days">3.197 dias, isso são 105 meses, 456 semanas de parceria. No total já temos 8 anos, 9 meses e 2</span>
+            <small>dias de muito carinho juntinhos</small>
+          </div>
+          <p class="deploy-message">
+            Deploy realizado com sucesso.<br />
+            Status do relacionamento: <strong>em produ&ccedil;&atilde;o.</strong>
+          </p>
+          <button class="secondary-button" id="restart" type="button">
+            Rodar de novo
+          </button>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
