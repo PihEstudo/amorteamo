@@ -12,7 +12,7 @@ const particles = document.querySelector("#particles");
 const days = document.querySelector("#days");
 
 // Personalize aqui: meses em JavaScript começam em 0. Setembro = 8.
-const relationshipStart = new Date(2021, 8, 17);
+const relationshipStart = new Date(2017, 8, 10);
 
 const loveLetter =
   "Eu n\u00e3o tinha dinheiro para comprar flores...\nent\u00e3o programei uma para voc\u00ea.";
